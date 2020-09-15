@@ -24,6 +24,7 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.APICaller")
                 .setHost(host,"api_del")
+                .setName("api_del")
                 .setQueryURL("{xui.constant.request_url")
                 .setQueryArgs({
                     "key":"orders",
@@ -219,7 +220,7 @@ xui.Class('App', 'xui.Module',{
                         "text-align":"left"
                     }
                 })
-                );
+            );
             
             host.ctl_panel11.append(
                 xui.create("xui.UI.Image")
@@ -227,7 +228,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("2.7555555555555555em")
                 .setTop("22.333333333333332em")
                 .setSrc("{/}img/setup.png")
-                );
+            );
             
             host.ctl_panel11.append(
                 xui.create("xui.UI.Link")
@@ -254,7 +255,7 @@ xui.Class('App', 'xui.Module',{
                         "font-style":"italic"
                     }
                 })
-                );
+            );
             
             append(
                 xui.create("xui.UI.Block")
@@ -272,7 +273,7 @@ xui.Class('App', 'xui.Module',{
                 .setHeight("4.444444444444445em")
                 .setRight("0.35555555555555557em")
                 .setPanelBgClr("transparent")
-                );
+            );
             
             host.ctl_pane13.append(
                 xui.create("xui.UI.Label")
@@ -285,7 +286,7 @@ xui.Class('App', 'xui.Module',{
                         "font-style":"italic"
                     }
                 })
-                );
+            );
             
             host.ctl_pane13.append(
                 xui.create("xui.UI.Image")
@@ -310,7 +311,7 @@ xui.Class('App', 'xui.Module',{
                         "cursor":"pointer"
                     }
                 })
-                );
+            );
             
             host.ctl_pane13.append(
                 xui.create("xui.UI.Label")
@@ -318,7 +319,7 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("16.88888888888889em")
                 .setTop("2.2222222222222223em")
                 .setCaption("Theme:")
-                );
+            );
             
             host.ctl_pane13.append(
                 xui.create("xui.UI.ComboInput")
@@ -361,7 +362,7 @@ xui.Class('App', 'xui.Module',{
                         "method":"call"
                     }
                 ])
-                );
+            );
             
             host.ctl_block3.append(
                 xui.create("xui.UI.Image")
@@ -389,14 +390,14 @@ xui.Class('App', 'xui.Module',{
                         "transform":"rotate(331deg) scale(1,1) skew(0deg,0deg) translate(0px,0px)"
                     }
                 })
-                );
+            );
             
             host.ctl_block3.append(
                 xui.create("xui.UI.Label")
                 .setHost(host,"ctl_slabel28")
                 .setLeft("3.2916666666666665em")
                 .setTop("0.7916666666666666em")
-                .setCaption("Manage Orders")
+                .setCaption("Straight Forward Shippings")
                 .setCustomStyle({
                     "KEY":{
                         "font-size":"18pt",
@@ -405,7 +406,7 @@ xui.Class('App', 'xui.Module',{
                         "text-shadow":"0px 0px 8px #20B2AA"
                     }
                 })
-                );
+            );
             
             append(
                 xui.create("xui.UI.Block")
@@ -762,7 +763,7 @@ xui.Class('App', 'xui.Module',{
                         }
                     ]
                 })
-                );
+            );
             
             return children;
             // ]]Code created by CrossUI RAD Studio
