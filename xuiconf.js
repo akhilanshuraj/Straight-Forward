@@ -2,7 +2,10 @@
 
 // [[Page Appearance
 xui.ini.$PageAppearance = {
-    "theme":"default"
+    "background":{
+        "background-color":"#6495ED"
+    },
+    "theme":"electricity"
 };
 // ]]Page Appearance
 
@@ -13,8 +16,8 @@ xui.ini.$PageAppearance = {
 // [[Develop Env Setting
 xui.ini.$DevEnv = {
     "designViewConf":{
-        "width":960,
-        "height":600
+        "width":1024,
+        "height":768
     }
 };
 // ]]Develop Env Setting
